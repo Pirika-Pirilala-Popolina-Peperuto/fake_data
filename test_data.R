@@ -95,7 +95,7 @@ report <- data.frame(report_id = c("7e6a54da-8613-4d20-a3d7-8439c4afbbd2"
                       )
 write.csv(report, "./report.csv", row.names = FALSE)
 
-picture <- data.frame(picture_id = c("1c547261-e402-4992-b9b5-aedf3ba9eff9"
+picture <- data.frame(id = c("1c547261-e402-4992-b9b5-aedf3ba9eff9"
                                    ,"aded7b4a-3cf5-4889-bf01-6f09a78f0e9d"
                                    ,"037f0bd1-40e6-4139-abc8-d05d7b6e4d80"
                                    ,"39f2dcde-a1a3-4f40-94c3-86cca92b9999"),
