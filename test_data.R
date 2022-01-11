@@ -21,9 +21,22 @@ product_catagory <- data.frame(
                  ,"86fcb02c-292c-42a1-a216-560b34f779eb"
                  ,"3a59eecf-b367-466f-b973-2a063db900a0"
                  ,"c1745aee-58c8-490f-95f8-a3627620ebf4"),
-  catagory = c("常見魔法", "牧師魔法", "法師魔法", "坦克魔法")
+  catagory_id =  c("3d459484-fb49-40cd-94a3-02ffa8166772"
+                   ,"c84571d4-7e83-4157-8c91-db19399738c3"
+                   ,"6dc78178-520f-4694-b054-c21a7d948a2f"
+                   ,"a0c2ed37-69ff-4c9e-b101-6dfe6847df26")
 )
 write.csv(product_catagory, "./product_catagory.csv", row.names = FALSE)
+
+catagory <- data.frame(
+  id = c("3d459484-fb49-40cd-94a3-02ffa8166772"
+                 ,"c84571d4-7e83-4157-8c91-db19399738c3"
+                 ,"6dc78178-520f-4694-b054-c21a7d948a2f"
+                 ,"a0c2ed37-69ff-4c9e-b101-6dfe6847df26"),
+  name = c("常見魔法", "牧師魔法", "法師魔法", "坦克魔法")
+)
+write.csv(catagory, "./catagory.csv", row.names = FALSE)
+
 
 discount <- data.frame(discount_id = c("657f139c-8882-4303-a727-71c127eb11fe"
                                        ,"bb994e4b-50f3-40bd-8002-bfe3a124e063"
@@ -99,7 +112,7 @@ picture <- data.frame(id = c("1c547261-e402-4992-b9b5-aedf3ba9eff9"
                                    ,"aded7b4a-3cf5-4889-bf01-6f09a78f0e9d"
                                    ,"037f0bd1-40e6-4139-abc8-d05d7b6e4d80"
                                    ,"39f2dcde-a1a3-4f40-94c3-86cca92b9999"),
-                     picutre_url = c("https://img.ltn.com.tw/Upload/news/600/2022/01/08/phpP2TDnR.jpg",
+                     picture_url = c("https://img.ltn.com.tw/Upload/news/600/2022/01/08/phpP2TDnR.jpg",
                                     "https://img.ltn.com.tw/Upload/news/600/2022/01/08/phpP2TDnR.jpg",
                                     "https://img.ltn.com.tw/Upload/news/600/2022/01/08/phpP2TDnR.jpg",
                                     "https://img.ltn.com.tw/Upload/news/600/2022/01/08/phpP2TDnR.jpg"))
